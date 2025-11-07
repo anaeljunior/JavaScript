@@ -29,5 +29,4 @@
 
 const result = 2 ** 3 // Exponencial
 
-
 console.log(result)

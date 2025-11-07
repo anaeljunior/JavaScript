@@ -1,13 +1,15 @@
 /*
 
-+ -> Adição
-- -> Subtração
-* -> Multiplicação
-/ -> Divisão
-% -> Resto da divisão
-++ -> Incremento
--- -> Decremento
-** -> Exponencial
+Operadores Aritméticos
+
+ + -> Adição
+ - -> Subtração
+ * -> Multiplicação
+ / -> Divisão
+ % -> Resto da divisão
+ ++ -> Incremento
+ -- -> Decremento
+ ** -> Exponencial
 
 */
 

@@ -34,10 +34,10 @@ const users = [
     'Vitória',
 ]
 
-for (let i = 0; i < users.length; i++) { // users.length = tamanho do array
-    console.log(users[i])
-}
-
-// for (let i = 0; i < users.length; i++) {
-//     console.log(`Usuário ${i + 1}: ${users[i]}`)
+// for (let i = 0; i < users.length; i++) { // users.length = tamanho do array
+//     console.log(users[i])
 // }
+
+for (let i = 0; i < users.length; i++) {
+    console.log(`Usuário ${i + 1}: ${users[i]}`)
+}

@@ -12,13 +12,13 @@ const contacts = [
 ]
 
 function search() {
-    for (let i = 0; i < contacts.length; i++) {
+    for (const contact of contacts) {
 
-        if (input.value.toLowerCase() === contacts[i].name.toLowerCase()) {
+        if (input.value.toLowerCase() === contact.name.toLowerCase()) {
             p.innerHTML = `Contato encontrado: 
             <br>
-            <br>Nome: ${contacts[i].name}
-            <br>Telefone: ${contacts[i].phone}`
+            <br>Nome: ${contact.name}
+            <br>Telefone: ${contact.phone}`
 
             break
 

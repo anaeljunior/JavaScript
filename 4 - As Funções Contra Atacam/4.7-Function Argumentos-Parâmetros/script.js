@@ -23,7 +23,18 @@
 // sum(40, 36) //Soma de 40 + 36
 
 
-function sayMyName(name = 'Nome não informado') {
+// function sayMyName(name = 'Nome não informado') {
+//     console.log(name)
+// }
+
+// sayMyName() // Se não passar nenhum nome, vai mostrar o valor padrão
+// sayMyName('Anael')
+
+//OU
+
+const myName = 'Nome não informado'
+
+function sayMyName(name = myName) {
     console.log(name)
 }
 

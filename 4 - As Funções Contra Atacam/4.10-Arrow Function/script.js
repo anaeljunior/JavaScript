@@ -12,17 +12,17 @@ Functions / Funções
 */
 
 function sayMyName(name) {
-    return `Seu nome é: ${name}`
+    return `Seu nome é ${name}`
 }
 
 
-const sayMyName2 = (name) => `Seu nome é: ${name}` 
+const sayMyName2 = (name) => `Seu nome é ${name}` 
 // Se não "arrow function" tiver apenas uma linha, não preoisa do "return" nem das chaves {}
 
 const sum = (number1, number2) => {
-    return `A soma dos números é igual: ${number1 + number2}`
+    return `A soma dos números é igual ${number1 + number2}`
 }
 
 console.log(sayMyName("Anael"))
 console.log(sayMyName2("Júnior"))
-console.log(sum(10, 10))
+console.log(sum(28, 12))

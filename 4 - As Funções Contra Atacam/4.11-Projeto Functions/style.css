@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://picsum.photos/1920/1080");
+    background-size: cover; /* Estica a imagem */
+    display: flex; /* Utilizado para centralizar e habilitar o justify-content */
+    justify-content: center; /* alianha na horizontal*/
+    align-items: center; /* alinha na vertical */
+    min-height: 100vh; /* Obriga a altura minima que ocupe toda a tela */
+}
+
+.container {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px; /* arredonda as bordas */
+    display: flex; /* Ficará um do lado do outro é padrão */
+    flex-direction: column; /* ajusta a direção dos elementos */
+    align-items: center; /* Centraliza na vertical */
+    justify-content: center; /* centraliza na horizontal */
+}
+
+.buttons {
+    margin: 30px 0; /* margem superior e inferior */
+    display: flex; /* deixa os botões um do lado do outro */
+    gap: 40px; /* espaço entre os botões */
+}
+
+button {
+    padding: 10px; 
+    font-size: 50px; /* tamanho da fonte, botões */
+    cursor: pointer; /* muda o cursor ao passar por cima */
+    border: none; /* remove a borda padrão */
+    border-radius: 10px; /* arredonda as bordas */
+    transition: opacity 0.5s ease-in-out; /* transição suave para o efeito hover */
+}
+
+button:hover {
+    opacity: 0.7; /* efeito ao passar o mouse */
+}
+
+#rock {
+    background-color: #a200ff;
+}
+
+#paper {
+    background-color: #9ee01a;
+}
+
+#scissors {
+    background-color: #7dbeed;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: rgb(77, 128, 116);
+}
+
+.machine-score span {
+    color: rgb(224, 71, 15);
+}
